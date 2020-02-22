@@ -1,68 +1,109 @@
 body { 
     margin: 0;
-    }
-    h1{
-    font-size: 40px;
-    }
-    h2{
-    font-size: 30px;
-    }
-    p{
-    color: dimgray;
-    }
-    header{
-    background-color:orange ;
+    font-family: 'Trade Winds', ;
     
-    }
-    section{
-    height:500px ;
-    }
-    .half-width{
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+}
+p{
+    color: midnightblue;
+    font-weight: 500;
+}
+header{
+    background-color:orange ;
+    font-size: 18px;
+    font-weight: bold;
+      
+}
+section{
+    height:600px ;
+}
+.half-width{
     width: 40%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
-    }
-    .half-width img{
-        width: 100%;
-    }
-    .extra-hilight{
-        color: orange;
-        font-weight: 700;
-    }
-    .header-area {
-        background-image: url("images/header-bg.png");
-        background-repeat: no-repeat;
-    }
-    .header-area img{
-        border-image-width: auto;
-    }
-    .about-area {
-        background-image: url("images/biography-bg.png");
-        background-repeat: no-repeat;
-    }
-    .work-area {
-        background-image: url("images/latest-work-bg.png");
-        background-repeat: no-repeat;
-    }
-    .client-area {
-        background-image: url("images/footer-bg.png");
-        background-repeat: no-repeat;
-    }
+}
+.half-width img{
+    width: 80%;
+    margin-top: 80px;
+ }
+.trd-width{
+    width: 30%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.trd-width img{
+    width: 70%;
+}
+.extra-hilight{
+    color: red;
+    font-weight: 700;
+}
+.header-area {
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.about-area {
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.work-area {
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.client-area {
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: center;
+}
+.client-area p{
+    margin-bottom: 80px;
+    margin-top: 70px;
+}
+.link-button {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-image: -webkit-gradient(linear, left top, right top, from(lightsalmon), to(tomato));
+    background-image: linear-gradient(90deg, lightsalmon, tomato);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
     
-    footer{
+footer{
     font-size:20px ;
     font-weight: 700;
     text-align:center ;
     background-color:orange ;
-    }
-    .header-area{
+}
+.header-area{
     background-image:url ("css/images/header.png") ;
-    }
-    .border-shad { 
+}
+.border-shad { 
     -webkit-box-shadow: 10px 10px 40px grey; 
     box-shadow: 10px 10px 40px grey; height: 70%; 
     text-align: justify; 
     padding-right: 2%;
-    }
+    margin-top: 100px;
+    text-align: center;
+
+}
+.border-shad p{
+    margin-bottom: 80px;
+    margin-top: 70px;
+}
+
     
