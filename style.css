@@ -1,0 +1,68 @@
+body { 
+    margin: 0;
+    }
+    h1{
+    font-size: 40px;
+    }
+    h2{
+    font-size: 30px;
+    }
+    p{
+    color: dimgray;
+    }
+    header{
+    background-color:orange ;
+    
+    }
+    section{
+    height:500px ;
+    }
+    .half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    }
+    .half-width img{
+        width: 100%;
+    }
+    .extra-hilight{
+        color: orange;
+        font-weight: 700;
+    }
+    .header-area {
+        background-image: url("images/header-bg.png");
+        background-repeat: no-repeat;
+    }
+    .header-area img{
+        border-image-width: auto;
+    }
+    .about-area {
+        background-image: url("images/biography-bg.png");
+        background-repeat: no-repeat;
+    }
+    .work-area {
+        background-image: url("images/latest-work-bg.png");
+        background-repeat: no-repeat;
+    }
+    .client-area {
+        background-image: url("images/footer-bg.png");
+        background-repeat: no-repeat;
+    }
+    
+    footer{
+    font-size:20px ;
+    font-weight: 700;
+    text-align:center ;
+    background-color:orange ;
+    }
+    .header-area{
+    background-image:url ("css/images/header.png") ;
+    }
+    .border-shad { 
+    -webkit-box-shadow: 10px 10px 40px grey; 
+    box-shadow: 10px 10px 40px grey; height: 70%; 
+    text-align: justify; 
+    padding-right: 2%;
+    }
+    
